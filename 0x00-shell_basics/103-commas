@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ap1 | tr '\n' ',' | sed -e 's/,$/\//' -e 's/\([^,]\)$/\1\n/'
+ls -ap1 | paste -sd ', ' - | sed 's/,$/\//'
