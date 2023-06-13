@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "water+stir=bestchol" $WATER $STIR $RESULT
+echo $(($WATER+$STIR))
