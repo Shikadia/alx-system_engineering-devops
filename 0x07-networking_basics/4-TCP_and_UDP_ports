@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Displays ONLY listening sockects and PID.
+
+sudo netstat -pl
