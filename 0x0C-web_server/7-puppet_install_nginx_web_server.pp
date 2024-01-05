@@ -1,5 +1,5 @@
 $default_site_loc = '/etc/nginx/sites-available/default'
-$default_site = 'https://github.com/Shikadia'
+$default_site = 'https://github.com/Shikadia/default-site'
 
 # Run apt-get update
 exec { 'apt-update':
